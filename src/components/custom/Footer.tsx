@@ -1,5 +1,3 @@
-import { Linkedin, Instagram } from "lucide-react"
-
 export default function Footer() {
   return (
     <footer className="bg-[#F5F5F5] h-[400px] px-6 flex flex-col justify-center items-center ">

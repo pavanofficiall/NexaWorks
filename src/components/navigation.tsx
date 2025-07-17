@@ -17,7 +17,7 @@ import { gsap } from "gsap"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
-  const pathname = usePathname()
+  // const pathname = usePathname()
 
   useEffect(() => {
     // Animate navigation on mount
@@ -28,15 +28,15 @@ export default function Navigation() {
     )
   }, [])
 
-  const navItems = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Projects", href: "/projects" },
-    { name: "Contact", href: "/#contact" },
-  ]
+  // const navItems = [
+  //   { name: "Home", href: "/" },
+  //   { name: "About Us", href: "/about" },
+  //   { name: "Projects", href: "/projects" },
+  //   { name: "Contact", href: "/#contact" },
+  // ]
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen)
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen)
   }
 
   return (

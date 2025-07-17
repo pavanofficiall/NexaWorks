@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 // import Link from "next/link"
-import { usePathname } from "next/navigation"
+// import { usePathname } from "next/navigation"
 // import { Button } from "@/components/ui/button"
 // import { Menu, X } from "lucide-react"
 import { gsap } from "gsap"
@@ -16,7 +16,7 @@ import { gsap } from "gsap"
 // } from "@/components/ui/navigation-menu"
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
   // const pathname = usePathname()
 
   useEffect(() => {

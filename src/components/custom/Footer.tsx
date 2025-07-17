@@ -2,30 +2,17 @@ import { Linkedin, Instagram } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-[#C8B6FF] py-16 px-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Header with logo and social icons */}
-        <div className="flex justify-between items-center mb-12">
-          <div className="flex items-center">
-            <div className="text-purple-800 text-2xl font-bold">
-              <span className="text-purple-800">◊</span> NexaWorks
-            </div>
-          </div>
-          <div className="flex space-x-3">
-            <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
-              <Linkedin className="w-5 h-5 text-purple-800" />
-            </div>
-            <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-orange-500 rounded-full flex items-center justify-center">
-              <Instagram className="w-5 h-5 text-purple-800" />
-            </div>
-          </div>
-        </div>
+    <footer className="bg-[#F5F5F5] h-[400px] px-6 flex flex-col justify-center items-center ">
 
-        {/* Footer links */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+        {/* bg header ////////// */}
+               <h1 className="z-0 text-centre text-[#e8e8e8] text-[300px] font-bold">NexaWorks</h1>
+
+         {/* Footer links //////////// */} 
+
+        <div className="z-50 mt-[-350px] mb-36 grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-purple-800 font-semibold text-lg mb-4">About</h3>
+            <h3 className="text-[#31312F] font-semibold text-lg mb-4">About</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-800">
@@ -37,8 +24,13 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-purple-800 font-semibold text-lg mb-4">Services</h3>
+            <h3 className="text-[#31312F] font-semibold text-lg mb-4">Services</h3>
             <ul className="space-y-2 text-gray-600">
+              <li>
+                <a href="#" className="hover:text-gray-800">
+                  Website development
+                </a>
+              </li>
               <li>
                 <a href="#" className="hover:text-gray-800">
                   iOS app development
@@ -47,11 +39,6 @@ export default function Footer() {
               <li>
                 <a href="#" className="hover:text-gray-800">
                   Android app development
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  Website development
                 </a>
               </li>
               <li>
@@ -71,56 +58,51 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-gray-800">
-                  Flutter app development
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
                   UI / UX design
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-gray-800">
                   Progressive web app development
                 </a>
-              </li>
-              <li>
-                <a href="#" className="text-purple-800 hover:text-orange-600">
+              </li> */}
+              {/* <li>
+                <a href="#" className="text-[#31312F] hover:text-orange-600">
                   More...
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* Industries */}
           <div>
-            <h3 className="text-purple-800 font-semibold text-lg mb-4">Industries</h3>
+            <h3 className="text-[#31312F] font-semibold text-lg mb-4">Industries</h3>
             <ul className="space-y-2 text-gray-600">
               <li>
                 <a href="#" className="hover:text-gray-800">
                   Healthcare apps
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-gray-800">
                   On demand apps
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="hover:text-gray-800">
                   Finance apps
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="hover:text-gray-800">
                   Entertainment apps
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="hover:text-gray-800">
                   Social networking apps
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#" className="hover:text-gray-800">
                   Education apps
@@ -131,66 +113,31 @@ export default function Footer() {
                   Restaurant apps
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-gray-800">
                   Real estate apps
                 </a>
-              </li>
-              <li>
-                <a href="#" className="text-purple-800 hover:text-orange-600">
+              </li> */}
+              {/* <li>
+                <a href="#" className="text-[#31312F] hover:text-orange-600">
                   More...
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* Portfolio */}
           <div>
-            <h3 className="text-purple-800 font-semibold text-lg mb-4">Portfolio</h3>
+            <h3 className="text-[#31312F] font-semibold text-lg mb-4">Portfolio</h3>
             <ul className="space-y-2 text-gray-600">
               <li>
                 <a href="#" className="hover:text-gray-800">
-                  Hummcare
+                  AI Resume Analyzer and Builder
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-gray-800">
-                  CP Plus
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  Across the globe
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  OlineO
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  Hobbycue
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  The Wallrus Company
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  QueerSpot
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  Swoop Motors
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-purple-800 hover:text-orange-600">
-                  More...
+                  Custom Class Management System
                 </a>
               </li>
             </ul>
@@ -198,7 +145,7 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="text-purple-800 font-semibold text-lg mb-4">Resources</h3>
+            <h3 className="text-[#31312F] font-semibold text-lg mb-4">Resources</h3>
             <ul className="space-y-2 text-gray-600">
               <li>
                 <a href="#" className="hover:text-gray-800">
@@ -208,7 +155,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-      </div>
+
     </footer>
   )
 }

@@ -1,19 +1,19 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Link from "next/link"
+// import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+// import { Button } from "@/components/ui/button"
+// import { Menu, X } from "lucide-react"
 import { gsap } from "gsap"
-import {
-  NavigationMenu,
-  NavigationMenuList,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuTrigger,
-  NavigationMenuContent,
-} from "@/components/ui/navigation-menu"
+// import {
+//   NavigationMenu,
+//   NavigationMenuList,
+//   NavigationMenuItem,
+//   NavigationMenuLink,
+//   NavigationMenuTrigger,
+//   NavigationMenuContent,
+// } from "@/components/ui/navigation-menu"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)

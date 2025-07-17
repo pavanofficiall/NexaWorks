@@ -76,7 +76,7 @@ export default function HomePage() {
           <ServicesGrid/>
       </div>
 
-      <h1 className="text-white text-2xl">Here's how we Work:</h1>
+      <h1 className="text-white text-2xl">Here&apos;s how we Work:</h1>
       <div id="page3" className="overflow-x-hidden min-h-scree bg-[#31312F] p-10">
         <p ref={processRef} className="text-nowrap text-white text-[500px]  uppercase font-bold ">idea - discuss - techstack - budget - team assigned - deadline - product</p>
       </div>

@@ -8,17 +8,6 @@ export default function Footer() {
          {/* Footer links //////////// */} 
 
         <div className="z-50 mt-[-350px] mb-36 grid grid-cols-2 md:grid-cols-5 gap-8">
-          {/* About */}
-          <div>
-            <h3 className="text-[#31312F] font-semibold text-lg mb-4">About</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  About us
-                </a>
-              </li>
-            </ul>
-          </div>
 
           {/* Services */}
           <div>
@@ -31,7 +20,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-gray-800">
-                  iOS app development
+                  Android / IOS app development
                 </a>
               </li>
               <li>
@@ -39,36 +28,6 @@ export default function Footer() {
                   Android app development
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  Digital marketing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  ReactJS
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  NodeJS
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  UI / UX design
-                </a>
-              </li>
-              {/* <li>
-                <a href="#" className="hover:text-gray-800">
-                  Progressive web app development
-                </a>
-              </li> */}
-              {/* <li>
-                <a href="#" className="text-[#31312F] hover:text-orange-600">
-                  More...
-                </a>
-              </li> */}
             </ul>
           </div>
 
@@ -141,17 +100,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Resources */}
-          <div>
-            <h3 className="text-[#31312F] font-semibold text-lg mb-4">Resources</h3>
-            <ul className="space-y-2 text-gray-600">
-              <li>
-                <a href="#" className="hover:text-gray-800">
-                  Sitemap
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
     </footer>

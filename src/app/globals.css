@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import "tailwindcss";
 @import "tw-animate-css";
 @custom-variant dark (&:is(.dark *));
@@ -138,4 +134,30 @@ html {
 
 body {
   font-family: 'Doumbar', sans-serif !important;
+}
+
+/* StickyCards GSAP styles */
+.df-sticky-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid red;
+}
+.left-side,
+.right-side {
+  width: 50%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.df-sticky-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
 }

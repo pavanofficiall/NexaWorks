@@ -69,10 +69,10 @@ export default function AboutPage() {
   }, [])
 
   return (
-    <div ref={containerRef} className="min-h-screen font-inter bg-gradient-to-br from-[#18181b] via-[#222226] to-[#2a2a2e] py-0 px-0">
+    <div ref={containerRef} className="min-h-screen font-inter bg-[#31312f] py-0 px-0">
       {/* Hero Section */}
       <section className="relative w-full min-h-screen flex flex-col justify-center items-center text-center px-4 py-20 bg-gradient-to-br from-[#111] to-[#222]">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#111]/90 to-[#222]/90 z-0 animate-gradient-move"></div>
+        <div className="absolute inset-0 bg-[#31312f] z-0 animate-gradient-move"></div>
         <div className="relative z-10 max-w-2xl mx-auto">
           <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6 tracking-tight animate-slide-in">We build the future, one MVP at a time.</h1>
           <p className="text-base sm:text-xl text-gray-400 mb-8 animate-fade-in">Helping startups launch, scale, and automate with confidence.</p>
